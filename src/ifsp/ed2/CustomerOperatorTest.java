@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 
 import ifsp.ed2.model.Customer;
 import ifsp.ed2.order.Ordenador;
-import ifsp.ed2.search.ArvoreBinariaBusca;
+import ifsp.ed2.search.HashVetor;
 
 public class CustomerOperatorTest {
 
