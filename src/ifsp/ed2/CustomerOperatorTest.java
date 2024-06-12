@@ -27,11 +27,11 @@ public class CustomerOperatorTest {
 
 		// =================================================
 
-		ArvoreBinariaBusca arvore = new ArvoreBinariaBusca();
-		for (Customer customer : customers) {
-			arvore.adicionaNo(customer);
+		HashVetor hash = new HashVetor(200000);
+		for(Customer customer : customers){
+			hash.adicionar(customer);
 		}
-		assertTrue(arvore.contem(451));
+		assertTrue(hash.contem(451));
 
 		// =================================================
 
